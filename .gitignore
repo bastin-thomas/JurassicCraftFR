@@ -1,0 +1,13 @@
+# Ignore Everything:
+/*
+ 
+# Do Not ignore these files:
+!.gitignore
+!config/
+!customnpcs/
+!mods/
+!photos/
+!resourcepacks/
+!saves/
+!shaderpacks/
+!README.md
