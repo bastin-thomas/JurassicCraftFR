@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "mob": ["minecraft:squid", "minecraft:stray", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", 
+        "minecraft:creeper", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:spider"],
+
+        "result": "deny"
+    }
+]

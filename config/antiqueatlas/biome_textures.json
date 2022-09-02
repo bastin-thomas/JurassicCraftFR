@@ -131,16 +131,6 @@
     "minecraft:taiga_cold": "SNOW_PINES",
     "minecraft:taiga_cold_hills": "SNOW_PINES_HILLS",
     "minecraft:taiga_hills": "PINES_HILLS",
-    "minecraft:void": "END_VOID",
-    "pe:dawn_forest": "DENSE_FOREST",
-    "pe:dawn_jungle": "JUNGLE",
-    "pe:magnolia_forest": "DENSE_FOREST",
-    "pe:pe_deep_ocean": "WATER",
-    "pe:pe_desert": "PLAINS",
-    "pe:pe_mesa": "PLATEAU_MESA",
-    "pe:pe_ocean": "WATER",
-    "pe:pe_plains": "PLAINS",
-    "pe:stream": "WATER",
-    "pe:swamp": "SWAMP"
+    "minecraft:void": "END_VOID"
   }
 }
