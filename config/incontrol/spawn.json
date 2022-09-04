@@ -1,8 +1,19 @@
 [
     {
-        "mob": ["minecraft:squid", "minecraft:stray", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", 
+        "dimension": [0], "mob": ["minecraft:squid", "minecraft:stray", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", 
         "minecraft:creeper", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:spider"],
 
         "result": "deny"
-    }
+    },
+
+
+    { "dimension": [-78,-79,-80,-81,-82,-83,-84,-85], "mob": ["fossil:fossil.alligator_gar", "fossil:fossil.coelacanth", "fossil:fossil.nautilus", "fossil:fossil.sturgeon"], "onjoin": true, "result": "deny" },
+
+    { "dimension": [-78,-79,-80,-81,-82,-83,-84,-85], "mod": ["fossil"] },
+
+    { "dimension": [-78,-79,-80,-81,-82,-83,-84,-85], "mod": ["lepidodendron"] },
+
+    { "dimension": [-78,-79,-80,-81,-82,-83,-84,-85], "result": "deny" },
+
+    { "dimension": [-78,-79,-80,-81,-82,-83,-84,-85], "mob": ["minecraft:skeleton", "minecraft:skeleton_horse"], "onjoin": true, "result": "deny" }
 ]

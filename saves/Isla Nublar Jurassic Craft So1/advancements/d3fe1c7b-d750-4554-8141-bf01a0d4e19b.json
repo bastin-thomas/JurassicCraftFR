@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "lepidodendron:pf_adv_ordovician_silurian": {
+    "criteria": {
+      "enter_cambrian": "2022-09-02 15:01:56 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2020-09-20 20:26:56 +0200"
@@ -110,6 +116,12 @@
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2020-09-20 11:05:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_brick": "2022-09-02 13:31:41 +0200"
     },
     "done": true
   },
@@ -209,6 +221,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2022-09-03 17:01:44 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2020-09-20 11:05:45 +0200"
@@ -218,6 +236,12 @@
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-09-20 14:28:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-09-03 11:13:03 +0200"
     },
     "done": true
   },
@@ -299,6 +323,12 @@
     },
     "done": true
   },
+  "fossil:fossil/dino_egg": {
+    "criteria": {
+      "dna": "2022-09-03 23:50:27 +0200"
+    },
+    "done": true
+  },
   "cfm:minekea": {
     "criteria": {
       "get_chair_or_table": "2020-09-20 21:59:32 +0200"
@@ -308,6 +338,12 @@
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-09-01 22:58:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2022-09-03 12:48:52 +0200"
     },
     "done": true
   },
@@ -392,6 +428,18 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2020-09-20 11:08:52 +0200"
+    },
+    "done": true
+  },
+  "lepidodendron:pf_adv_cambrian": {
+    "criteria": {
+      "enter_cambrian": "2022-09-02 15:00:21 +0200"
+    },
+    "done": true
+  },
+  "lepidodendron:pf_adv_devonian": {
+    "criteria": {
+      "enter_cambrian": "2022-09-02 15:04:37 +0200"
     },
     "done": true
   },
@@ -521,6 +569,12 @@
     },
     "done": true
   },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2022-09-02 14:25:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2022-09-01 23:01:18 +0200"
@@ -548,6 +602,18 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2022-09-01 22:58:10 +0200"
+    },
+    "done": true
+  },
+  "lepidodendron:pf_adv_permian": {
+    "criteria": {
+      "enter_permian": "2022-09-02 15:09:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2022-09-02 15:57:35 +0200"
     },
     "done": true
   },
@@ -590,6 +656,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-09-01 23:01:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2022-09-02 22:57:23 +0200"
     },
     "done": true
   },
@@ -695,6 +767,12 @@
     },
     "done": true
   },
+  "lepidodendron:pf_adv_precambrian": {
+    "criteria": {
+      "enter_cambrian": "2022-09-02 14:32:24 +0200"
+    },
+    "done": true
+  },
   "cfm:install": {
     "criteria": {
       "tick": "2020-09-20 10:45:10 +0200"
@@ -773,6 +851,12 @@
     },
     "done": true
   },
+  "camping:tent_luxery": {
+    "criteria": {
+      "tick_test": "2022-09-03 12:53:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-26 11:29:07 +0200"
@@ -830,6 +914,12 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2022-09-01 23:00:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2022-09-03 12:48:52 +0200"
     },
     "done": true
   },
@@ -1247,6 +1337,12 @@
     },
     "done": true
   },
+  "camping:campfire_got": {
+    "criteria": {
+      "campfire_got": "2022-09-02 17:03:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2020-09-20 11:05:45 +0200"
@@ -1259,9 +1355,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2022-09-04 17:42:05 +0200"
+    },
+    "done": true
+  },
+  "minejurassic:thequeenofnublar": {
+    "criteria": {
+      "thequeenofnublar": "2022-09-03 23:50:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2020-09-20 14:28:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2022-09-03 12:48:52 +0200"
     },
     "done": true
   },
@@ -1292,6 +1406,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2020-10-14 21:01:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2022-09-02 14:21:39 +0200"
     },
     "done": true
   },
@@ -1349,6 +1469,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-09-03 13:17:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_orange_wool": "2020-09-20 14:13:17 +0200"
@@ -1379,6 +1505,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime": "2022-09-02 14:21:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2020-09-22 16:23:49 +0200"
@@ -1388,6 +1520,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2022-09-01 23:01:18 +0200"
+    },
+    "done": true
+  },
+  "lepidodendron:pf_adv_carboniferous": {
+    "criteria": {
+      "enter_cambrian": "2022-09-02 15:06:49 +0200"
     },
     "done": true
   },
@@ -1433,6 +1571,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log2": "2022-09-03 11:17:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2020-09-20 15:02:52 +0200"
@@ -1457,6 +1601,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2022-09-02 14:21:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2022-09-03 11:21:28 +0200"
+    },
+    "done": true
+  },
   "minejurassic:welcometominejurassic": {
     "criteria": {
       "welcometominejurassic": "2020-09-20 10:45:10 +0200"
@@ -1478,10 +1634,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2020-09-20 10:46:30 +0200",
+      "birch_forest": "2022-09-03 10:57:34 +0200",
       "deep_ocean": "2020-09-20 12:09:09 +0200",
+      "beaches": "2022-09-03 10:07:48 +0200",
+      "desert_hills": "2022-09-03 10:57:51 +0200",
       "plains": "2020-09-20 10:45:10 +0200",
+      "savanna": "2022-09-03 11:08:50 +0200",
+      "savanna_rock": "2022-09-03 11:08:37 +0200",
       "ocean": "2020-09-20 10:46:12 +0200",
-      "river": "2020-09-20 10:45:36 +0200"
+      "river": "2020-09-20 10:45:36 +0200",
+      "desert": "2022-09-03 10:58:05 +0200"
     },
     "done": false
   },
@@ -1515,6 +1677,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_brick": "2022-09-02 13:31:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2020-09-26 17:49:40 +0200"
@@ -1524,6 +1692,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2020-09-26 17:49:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2022-09-04 17:42:05 +0200"
     },
     "done": true
   },
@@ -1566,6 +1740,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2020-09-20 10:45:38 +0200"
+    },
+    "done": true
+  },
+  "fossil:fossil/tyrannosaurus": {
+    "criteria": {
+      "iron_pickaxe": "2022-09-03 23:50:27 +0200"
     },
     "done": true
   },
@@ -1650,6 +1830,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_at_least_9_lapis": "2020-10-11 20:19:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_brick": "2022-09-02 13:31:41 +0200"
     },
     "done": true
   },
@@ -1824,6 +2010,12 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2020-09-20 20:26:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2022-09-04 17:42:05 +0200"
     },
     "done": true
   },

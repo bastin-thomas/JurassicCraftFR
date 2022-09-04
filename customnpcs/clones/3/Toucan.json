@@ -1,0 +1,149 @@
+{
+    "HurtByTimestamp": 0,
+    "Size": 5b,
+    "Attributes": [
+        {
+            "Base": 11.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.00540000021457672d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.2d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 16.0d,
+            "Modifiers": [
+                {
+                    "UUIDMost": 7373785649977705264L,
+                    "UUIDLeast": -6700050658979733321L,
+                    "Amount": -0.012127512029415397d,
+                    "Operation": 1,
+                    "Name": "Random spawn bonus"
+                }
+            ],
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 0.8d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "Gender": 0b,
+    "SleepTime": 0,
+    "AbsorptionAmount": 0.0f,
+    "FallDistance": 0.0f,
+    "InLove": 0,
+    "ForgeCaps": {
+        "dsurround:data": {
+            "a": 0b,
+            "f": 0b
+        },
+        "llibrary:extendedentitydatacapability": {
+            "Fossils - Mammal Tracker": {
+                "EmbryoProgress": 0,
+                "Embryo": -1
+            }
+        },
+        "reforged:reforgedplayer": 0b
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "PersistenceRequired": 0b,
+    "id": "zawa:toucan",
+    "Thirst": 20.0d,
+    "NoAge": 0b,
+    "Leashed": 0b,
+    "Air": 300s,
+    "NoFly": 0b,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "OwnerUUID": "",
+    "CanPickUpLoot": 0b,
+    "Trait": 25,
+    "HurtTime": 0s,
+    "Varient": 3,
+    "Enrichment": 20.0d,
+    "OwnerName": "",
+    "ForgeData": {
+        "NoAge": 0b,
+        "Control": 3,
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "NoFly": 0b,
+        "Spawn": 1b
+    },
+    "Asleep": 0b,
+    "Sitting": 0b,
+    "FallFlying": 0b,
+    "ForcedAge": 0,
+    "PortalCooldown": 0,
+    "ESaturation": 0.0d,
+    "ModRev": 1,
+    "Hunger": 20.0f,
+    "Control": 3,
+    "DeathTime": 0s,
+    "ParentB": 63b,
+    "NextSleep": 0,
+    "TSaturation": 0.0d,
+    "ParentA": 3b,
+    "Age": 0,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "Health": 11.0f,
+    "Saturation": 0.0d,
+    "Spawned": 1b,
+    "LeftHanded": 1b,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "Rotation": [
+        299.39432f,
+        0.0f
+    ],
+    "UpdateBlocked": 0b,
+    "Date": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ]
+}

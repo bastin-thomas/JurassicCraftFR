@@ -26,6 +26,19 @@
     "antiqueatlas:google": {},
     "antiqueatlas:nether_portal": {},
     "antiqueatlas:pickaxe": {},
+    "antiqueatlas:port": {
+      "textures": [
+        "jurassicraftmarker:textures/marker/port-2.png"
+      ],
+      "size": 1,
+      "clipMin": -500,
+      "clipMax": 1000,
+      "alwaysShow": false,
+      "isTile": false,
+      "isTechnical": false,
+      "centerX": 0.5,
+      "centerY": 0.5
+    },
     "antiqueatlas:red_x_large": {},
     "antiqueatlas:red_x_small": {},
     "antiqueatlas:scroll": {},
@@ -33,6 +46,19 @@
     "antiqueatlas:sword": {},
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
-    "antiqueatlas:village": {}
+    "antiqueatlas:village": {},
+    "antiqueatlas:visitorcenter": {
+      "textures": [
+        "jurassicraftmarker:textures/marker/visitorcenter-2.png"
+      ],
+      "size": 1,
+      "clipMin": -500,
+      "clipMax": 1000,
+      "alwaysShow": true,
+      "isTile": false,
+      "isTechnical": false,
+      "centerX": 0.5,
+      "centerY": 0.5
+    }
   }
 }

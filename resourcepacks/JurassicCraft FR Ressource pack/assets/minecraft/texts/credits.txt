@@ -1,10 +1,7 @@
 [C]§f============
-[C]§eTEAM SERVEUR Jurassic Craft FR
+[C]§eJurassic Craft FR
 [C]§f============
- 
-§7Créateur originel
-§f          Arkios
- 
+
 §7Artiste
 §f          Arkios
 
@@ -14,11 +11,10 @@
 §7Configurateur
 §f          Arkios
 
-§7Un grand merci à :
-§f          Djboydu28
+§7En hommage à Sherlocked et GussDX
 
 
 
 
 
-§f"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover." §7- Unknown
+§f"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
