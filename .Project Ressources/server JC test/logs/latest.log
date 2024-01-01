@@ -1,0 +1,182 @@
+[12:13:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:13:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:13:53] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[12:13:53] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_202, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_202
+[12:13:55] [main/INFO] [FML]: Searching I:\JurassicCraft\server JC test\.\mods for mods
+[12:13:55] [main/INFO] [FML]: Searching I:\JurassicCraft\server JC test\.\mods\1.12.2 for mods
+[12:13:55] [main/INFO] [FML]: Loading tweaker com.forgeessentials.core.preloader.FELaunchHandler from .forgeessentials-1.12.2-12.3.82-server.jar
+[12:13:55] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in B3M-TimeSpeed-1.12.2-17.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:13:55] [main/WARN] [FML]: The coremod sedridor.B3M.core.B3M_CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: The coremod B3M_CorePlugin (sedridor.B3M.core.B3M_CorePlugin) is not signed!
+[12:13:55] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CMDCam_v1.4.10_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:13:55] [main/WARN] [FML]: The coremod com.creativemd.cmdcam.transform.CamPatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: The coremod CamPatchingLoader (com.creativemd.cmdcam.transform.CamPatchingLoader) is not signed!
+[12:13:55] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.20_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:13:55] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[12:13:55] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from forgeessentials-1.12.2-12.3.82-client.jar
+[12:13:55] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:13:55] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[12:13:55] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Modern Warfare_2.0-0.4.4.6_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:13:55] [main/WARN] [FML]: The coremod weaponlib (com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin) is not signed!
+[12:13:55] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Movingworld-1.12-6.353-full.jar
+[12:13:55] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SereneSeasons-1.12.2-1.2.18-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:13:55] [main/WARN] [FML]: The coremod sereneseasons.asm.SSLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: The coremod SSLoadingPlugin (sereneseasons.asm.SSLoadingPlugin) is not signed!
+[12:13:55] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:13:55] [main/INFO] [LaunchWrapper]: Loading tweak class name com.forgeessentials.core.preloader.FELaunchHandler
+[12:13:55] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[12:13:55] [main/ERROR] [mixin]: Catching
+org.spongepowered.asm.service.ServiceInitialisationException: ModLauncher is not available
+	at org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap.bootstrap(MixinServiceModLauncherBootstrap.java:52) ~[Movingworld-1.12-6.353-full.jar:?]
+	at org.spongepowered.asm.service.MixinService.runBootServices(MixinService.java:79) [.forgeessentials-1.12.2-12.3.82-server.jar:?]
+	at org.spongepowered.asm.service.MixinService.<init>(MixinService.java:72) [.forgeessentials-1.12.2-12.3.82-server.jar:?]
+	at org.spongepowered.asm.service.MixinService.getInstance(MixinService.java:92) [.forgeessentials-1.12.2-12.3.82-server.jar:?]
+	at org.spongepowered.asm.service.MixinService.boot(MixinService.java:102) [.forgeessentials-1.12.2-12.3.82-server.jar:?]
+	at org.spongepowered.asm.launch.MixinBootstrap.<clinit>(MixinBootstrap.java:76) [.forgeessentials-1.12.2-12.3.82-server.jar:?]
+	at org.spongepowered.asm.launch.MixinTweaker.<init>(MixinTweaker.java:44) [.forgeessentials-1.12.2-12.3.82-server.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [?:1.8.0_202]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [?:1.8.0_202]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [?:1.8.0_202]
+	at java.lang.Class.newInstance(Unknown Source) [?:1.8.0_202]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_202]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.5.2854.jar:?]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.5.2854.jar:?]
+[12:13:55] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/I:/JurassicCraft/server%20JC%20test/./mods/.forgeessentials-1.12.2-12.3.82-server.jar Service=LaunchWrapper Env=SERVER
+[12:13:55] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[12:13:55] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[12:13:55] [main/WARN] [FML]: The coremod com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:13:55] [main/WARN] [FML]: The coremod MovingWorldCore (com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod) is not signed!
+[12:13:55] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
+[12:13:55] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[12:13:55] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[12:13:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:13:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:13:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:13:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:56] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class com.forgeessentials.core.preloader.FELaunchHandler
+[12:13:56] [main/WARN] [mixin]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\antlr-2.7.7.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\cdi-api-1.1.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\classmate-1.3.0.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\dom4j-1.6.1.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\el-api-2.2.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\geronimo-jta_1.1_spec-1.1.1.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\h2-1.3.175.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\hibernate-commons-annotations-5.0.1.Final.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\hibernate-core-5.2.2.Final.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\jandex-2.0.0.Final.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\javassist-3.20.0-GA.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\javax.inject-1.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\jboss-logging-3.3.0.Final.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\jsr250-api-1.0.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\mysql-connector-java-5.1.22.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\pircbotx-2.0.1.jar to classpath
+[12:13:56] [main/INFO] [ForgeEssentials]: Added library I:\JurassicCraft\server JC test\ForgeEssentials\lib\slf4j-api-1.7.5.jar to classpath
+[12:13:56] [main/INFO] [ASM_ClassInjector]: Scanning injector class com.forgeessentials.core.preloader.injections.MixinEntity
+[12:13:56] [main/INFO] [ASM_ClassInjector]: Found injector method attackEntityFrom_event => func_70097_a(Lnet/minecraft/util/DamageSource;F)Z
+[12:13:56] [main/INFO] [ASM_ClassInjector]: Scanning injector class com.forgeessentials.core.preloader.injections.MixinBlock
+[12:13:56] [main/INFO] [ASM_ClassInjector]: Found injector method onFallenUpon_event => func_180658_a(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/Entity;F)V
+[12:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[12:13:56] [main/WARN] [mixin]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[12:13:56] [main/ERROR] [mixin]: Mixin config mixins.forgeessentials.json does not specify "minVersion" property
+[12:13:56] [main/WARN] [mixin]: MixinEnvironment::setCompatibilityLevel is deprecated and will be removed. Set level via config instead!
+[12:13:56] [main/ERROR] [mixin]: Mixin config mixins.forgeessentials.client.json does not specify "minVersion" property
+[12:13:56] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
+[12:13:56] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@3cbcd8f3
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:13:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:13:57] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[12:13:57] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:13:57] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[12:13:57] [main/WARN] [mixin]: Reference map 'movingworld.mixin.refmap.json' for mixins.movingworld.json could not be read. If this is a development environment you can ignore this message
+[12:13:57] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.sereneseasons.asm.transformer.WorldTransformer' was detected and will no longer process meta class data
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:block.MixinBlockPortal, name: com.forgeessentials.core.preloader.mixin.block.MixinBlockPortal
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:block.MixinBlockFire, name: com.forgeessentials.core.preloader.mixin.block.MixinBlockFire
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:block.MixinBlockEndPortal, name: com.forgeessentials.core.preloader.mixin.block.MixinBlockEndPortal
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:command.MixinCommandHandler, name: com.forgeessentials.core.preloader.mixin.command.MixinCommandHandler
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:entity.MixinEntity, name: com.forgeessentials.core.preloader.mixin.entity.MixinEntity
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:entity.player.MixinEntityPlayer, name: com.forgeessentials.core.preloader.mixin.entity.player.MixinEntityPlayer
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:item.crafting.MixinCraftingManager, name: com.forgeessentials.core.preloader.mixin.item.crafting.MixinCraftingManager
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:network.MixinNetHandlerPlayServer, name: com.forgeessentials.core.preloader.mixin.network.MixinNetHandlerPlayServer
+[12:13:57] [main/ERROR] [mixin]: Classloader restrictions [PACKAGE_CLASSLOADER_EXCLUSION] encountered loading mixins.forgeessentials.json:MixinDimensionManager, name: com.forgeessentials.core.preloader.mixin.MixinDimensionManager
+[12:13:57] [main/WARN] [mixin]: Error loading class: net/minecraft/client/multiplayer/PlayerControllerMP (net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@588cd519 from coremod FMLCorePlugin)
+[12:13:57] [main/WARN] [mixin]: @Mixin target net.minecraft.client.multiplayer.PlayerControllerMP was not found mixins.forgeessentials.client.json:MixinPlayerControllerMP
+[12:13:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[12:13:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[12:13:59] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[12:13:59] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:13:59] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[12:13:59] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[12:13:59] [Server thread/INFO] [FML]: Searching I:\JurassicCraft\server JC test\.\mods for mods
+[12:13:59] [Server thread/INFO] [FML]: Searching I:\JurassicCraft\server JC test\.\mods\1.12.2 for mods
+[12:14:01] [Server thread/INFO] [FML]: Disabling mod antiqueatlasoverlay it is client side only.
+[12:14:01] [Server thread/INFO] [FML]: Disabling mod betteranimals it is client side only.
+[12:14:01] [Server thread/WARN] [FML]: Mod chickenchunks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.74
+[12:14:01] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[12:14:01] [Server thread/INFO] [FML]: Disabling mod ctgui it is client side only.
+[12:14:02] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[12:14:04] [Server thread/INFO] [FML]: Forge Mod Loader has identified 71 mods to load
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for forgeessentials: assets/forgeessentials/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for B3M: assets/b3m/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for craftstudioapi: assets/craftstudioapi/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for crafttweaker: assets/crafttweaker/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for crafttweakerjei: assets/crafttweakerjei/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for customspawner: assets/customspawner/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for hidenames: assets/hidenames/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for universalmodcore: assets/universalmodcore/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for mcjtylib_ng: assets/mcjtylib_ng/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for mjrlegendslib: assets/mjrlegendslib/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for modtweaker: assets/modtweaker/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for movingworld: assets/movingworld/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for mtlib: assets/mtlib/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for corerm: assets/corerm/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for snowaccumulation: assets/snowaccumulation/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for subcommonlib: assets/subcommonlib/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for trackapi: assets/trackapi/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for unidict: assets/unidict/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for imvoice: assets/imvoice/lang/en_us.lang
+[12:14:04] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[12:14:04] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod vehicle (MrCrayfish's Vehicle Mod) requires [obfuscate@[0.2.5,)]
+[12:14:04] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.MissingModsException: Mod vehicle (MrCrayfish's Vehicle Mod) requires [obfuscate@[0.2.5,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_202]
+[12:14:04] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: I:\JurassicCraft\server JC test\.\crash-reports\crash-2021-12-29_12.14.04-server.txt
+[12:14:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[12:14:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[12:14:04] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[12:14:04] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[12:14:04] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

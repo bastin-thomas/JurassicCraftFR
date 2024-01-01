@@ -15,5 +15,8 @@
 !options.txt
 !optionsof.txt
 !optionsshaders.txt
+!.Project Ressources/
+
+
 mods/memory_repo/*
 mods/animation/*

@@ -1,0 +1,189 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  B3M_CorePlugin (B3M-TimeSpeed-1.12.2-17.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.20_mc1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  ShutdownPatcher (mcef-1.12.2-0.9-coremod.jar)
+  MovingWorldCore (Movingworld-1.12-6.353-full.jar)
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  CamPatchingLoader (CMDCam_v1.4.10_mc1.12.2.jar)
+  MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  weaponlib (Modern Warfare_2.0-0.4.4.6_mc1.12.2.jar)
+  IELoadingPlugin (ImmersiveEngineering-0.12-73-core.jar)
+Contact their authors BEFORE contacting forge
+
+// Uh... Did I do that?
+
+Time: 15/09/20 17:18
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from bspkrsCore (bspkrscore)
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at bspkrs.util.CommonUtils.getMinecraftDir(CommonUtils.java:534)
+	at bspkrs.util.CommonUtils.getConfigDir(CommonUtils.java:540)
+	at bspkrs.util.ModVersionChecker.<init>(ModVersionChecker.java:77)
+	at bspkrs.util.ModVersionChecker.<init>(ModVersionChecker.java:41)
+	at bspkrs.util.ModVersionChecker.<init>(ModVersionChecker.java:130)
+	at bspkrs.bspkrscore.fml.bspkrsCoreMod.init(bspkrsCoreMod.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3416839960 bytes (3258 MB) / 4418699264 bytes (4214 MB) up to 7635730432 bytes (7282 MB)
+	JVM Flags: 2 total; -Xmx8G -Xms1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 67 mods loaded, 67 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                           | Version                           | Source                                     | Signature                                |
+	|:----- |:-------------------------------------------- |:--------------------------------- |:------------------------------------------ |:---------------------------------------- |
+	| LCHI  | minecraft                                    | 1.12.2                            | minecraft.jar                              | None                                     |
+	| LCHI  | mcp                                          | 9.42                              | minecraft.jar                              | None                                     |
+	| LCHI  | FML                                          | 8.0.99.99                         | forge-1.12.2-14.23.5.2854.jar              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHI  | forge                                        | 14.23.5.2854                      | forge-1.12.2-14.23.5.2854.jar              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHI  | creativecoredummy                            | 1.0.0                             | minecraft.jar                              | None                                     |
+	| LCHI  | com.elytradev.movingworld.common.asm.coremod |                                   | minecraft.jar                              | None                                     |
+	| LCHI  | foamfixcore                                  | 7.7.4                             | minecraft.jar                              | None                                     |
+	| LCHI  | forgeessentials                              | 12.3                              | .forgeessentials-1.12.2-12.3.82-server.jar | None                                     |
+	| LCHI  | antiqueatlas                                 | 4.5.1                             | antiqueatlas-1.12.2-4.5.1.jar              | e631d7254e451d0360d0148cb21407d5511d45e9 |
+	| LCHI  | B3M                                          | 1.12.2-17                         | B3M-TimeSpeed-1.12.2-17.jar                | None                                     |
+	| LCHI  | backpack                                     | 3.0.2                             | backpack-3.0.2-1.12.2.jar                  | None                                     |
+	| LCHI  | bibliocraft                                  | 2.4.5                             | BiblioCraft-v2.4.5-MC1.12.2.jar            | None                                     |
+	| LCHE  | bspkrscore                                   | 8.0.0                             | bspkrscore-1.12.2-8.0.1.jar                | None                                     |
+	| LCH   | carryon                                      | 1.12.2                            | CarryOn.jar                                | 55e88f24d04398481ae6f1ce76f65fd776f14227 |
+	| LCH   | codechickenlib                               | 3.2.3.358                         | CodeChickenLib-1.12.2-3.2.3.358.jar        | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | chickenchunks                                | 2.4.2.74                          | ChickenChunks-1.12.2-2.4.2.74.jar          | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | chisel                                       | MC1.12.2-1.0.2.45                 | Chisel-MC1.12.2-1.0.2.45.jar               | None                                     |
+	| LCH   | creativecore                                 | 1.10.0                            | CreativeCore_v1.10.20_mc1.12.2.jar         | None                                     |
+	| LCH   | cmdcam                                       | 1.4.0                             | CMDCam_v1.4.10_mc1.12.2.jar                | None                                     |
+	| LCH   | craftingstation                              | @VERSION@                         | craftingstation-0.1.7c.jar                 | None                                     |
+	| LCH   | craftstudioapi                               | 1.0.0                             | CraftStudioAPI-v1.0.1.95-mc1.12.jar        | None                                     |
+	| LCH   | crafttweaker                                 | 4.1.20                            | CraftTweaker2-1.12-4.1.20.586.jar          | None                                     |
+	| LCH   | crafttweakerjei                              | 2.0.3                             | CraftTweaker2-1.12-4.1.20.586.jar          | None                                     |
+	| LCH   | customnpcs                                   | 1.12                              | CustomNPCs_1.12.2-(05Jul20).jar            | None                                     |
+	| LCH   | movingworld                                  | 1.12-6.353                        | Movingworld-1.12-6.353-full.jar            | None                                     |
+	| LCH   | davincisvessels                              | @DVESSELSVER@                     | davincisvessels-1.12-6.340-full.jar        | None                                     |
+	| LCH   | cdm                                          | 0.4.1                             | Device Mods-0.4.1-mc1.12.2.jar             | None                                     |
+	| LCH   | dynamictrees                                 | 1.12.2-0.9.8                      | DynamicTrees-1.12.2-0.9.8.jar              | None                                     |
+	| LCH   | harvestcraft                                 | 1.12.2zb                          | Pam_s HarvestCraft 1.12.2zb.jar            | None                                     |
+	| LCH   | dynamictreesphc                              | 1.12.2-1.4.2                      | DynamicTreesPHC-1.12.2-1.4.2.jar           | None                                     |
+	| LCH   | economy                                      | 1.5                               | Economy-Inc-Mod-1.12.2.jar                 | None                                     |
+	| LCH   | foamfix                                      | 0.10.10-1.12.2                    | foamfix-0.10.10-1.12.2.jar                 | None                                     |
+	| LCH   | forgeessentialsclient                        | 12.3                              | forgeessentials-1.12.2-12.3.82-client.jar  | None                                     |
+	| LCH   | llibrary                                     | 1.7.19                            | llibrary-1.7.19-1.12.2.jar                 | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCH   | fossil                                       | 8.0.4                             | fossilsarcheology-8.0.4.jar                | None                                     |
+	| LCH   | cfm                                          | 6.3.1                             | furniture-6.3.1-1.12.2.jar                 | None                                     |
+	| LCH   | hidenames                                    | 1.4.1                             | HideNames-1.12.2-1.4.1.jar                 | None                                     |
+	| LCH   | trackapi                                     | 1.2                               | TrackAPI-1.2.jar                           | None                                     |
+	| LCH   | immersiverailroading                         | 1.7.1                             | Immersive-Railroading-Mod-1.12.2.jar       | None                                     |
+	| LCH   | universalmodcore                             | 1.0.0                             | Immersive-Railroading-Mod-1.12.2.jar       | None                                     |
+	| LCH   | inventorytweaks                              | 1.63+release.109.220f184          | InventoryTweaks-1.63.jar                   | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCH   | ironchest                                    | 1.12.2-7.0.67.844                 | ironchest-1.12.2-7.0.72.847.jar            | None                                     |
+	| LCH   | malisiscore                                  | 1.12.2-6.5.1-SNAPSHOT             | malisiscore-1.12.2-6.5.1.jar               | None                                     |
+	| LCH   | malisisdoors                                 | 1.12.2-7.3.0                      | MalisisDoors-Mod-1.12.2.jar                | None                                     |
+	| LCH   | minejurassic                                 | 1.1.2 - Mesozoic in Europe Update | MineJurassic-1.1.2-1.12.2.jar              | None                                     |
+	| LCH   | mjrlegendslib                                | 1.12.2-1.2.0                      | MJRLegendsLib-1.12.2-1.2.0.jar             | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LCH   | mw                                           | 0.4.4.6                           | Modern Warfare_2.0-0.4.4.6_mc1.12.2.jar    | None                                     |
+	| LCH   | mtlib                                        | 3.0.6                             | MTLib-3.0.6.jar                            | None                                     |
+	| LCH   | modtweaker                                   | 4.0.18                            | modtweaker-4.0.18.jar                      | None                                     |
+	| LCH   | corerm                                       | 1.3.3                             | RikMuldsCore_1.3.3.jar                     | None                                     |
+	| LCH   | securitycraft                                | v1.8.19.3                         | SecurityCraft mc1.12.2 v1.8.19.3.jar       | None                                     |
+	| LCH   | sereneseasons                                | 1.2.18                            | SereneSeasons-1.12.2-1.2.18-universal.jar  | None                                     |
+	| LCH   | shootit                                      | 0.1                               | shootit-1.12.2-0.2.jar                     | None                                     |
+	| LCH   | snowaccumulation                             | 1.0.0                             | Snow-Accumulation-Mod-1.12.2.jar           | None                                     |
+	| LCH   | subcommonlib                                 | 1.2.0.1                           | subcommonlib-sublib-1.12.2-1.2.0.4.jar     | None                                     |
+	| LCH   | telepads                                     | $version                          | telepads-1.12.2-1.1.0.7.jar                | None                                     |
+	| LCH   | torchmaster                                  | 1.8.1.82                          | TorchMaster-Mod-1.12.2.jar                 | 5e9a436b366831c8f54a7e80b015784da69278c6 |
+	| LCH   | treecapitator                                | 1.43.0                            | TreeCapitator-client-1.43.0.jar            | None                                     |
+	| LCH   | imvoice                                      | 0.7.0                             | VoiceChat-1.12.2-0.7.0.jar                 | None                                     |
+	| LCH   | wanionlib                                    | 1.12.2-2.4                        | WanionLib-1.12.2-2.4.jar                   | None                                     |
+	| LCH   | betteranimalsplus                            | 9.0.1                             | betteranimalsplus-1.12.2-9.0.1.jar         | None                                     |
+	| LCH   | kiwi                                         | 0.5.3.32                          | Kiwi-1.12.2-0.5.3.32.jar                   | None                                     |
+	| LCH   | cuisine                                      | 0.5.22-build929                   | Cuisine-0.5.22-build929.jar                | None                                     |
+	| LCH   | immersiveengineering                         | 0.12-89                           | ImmersiveEngineering-0.12-89.jar           | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+	| LCH   | jurassicraft                                 | 2.1.23                            | JurassiCraft-1.12.2-2.1.23.jar             | None                                     |
+	| LCH   | orelib                                       | 3.6.0.1                           | OreLib-1.12.2-3.6.0.1.jar                  | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCH   | unidict                                      | 1.12.2-2.9.6                      | UniDict-1.12.2-2.9.6.jar                   | None                                     |
+
+	Loaded coremods (and transformers): 
+SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  sereneseasons.asm.transformer.EntityRendererTransformer
+  sereneseasons.asm.transformer.WorldTransformer
+B3M_CorePlugin (B3M-TimeSpeed-1.12.2-17.jar)
+  sedridor.B3M.core.B3M_Transformer
+CreativePatchingLoader (CreativeCore_v1.10.20_mc1.12.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+ShutdownPatcher (mcef-1.12.2-0.9-coremod.jar)
+  net.montoyo.mcef.coremod.ShutdownPatcher
+MovingWorldCore (Movingworld-1.12-6.353-full.jar)
+  
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+IELoadingPlugin (ImmersiveEngineering-core-0.12-89.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+CamPatchingLoader (CMDCam_v1.4.10_mc1.12.2.jar)
+  com.creativemd.cmdcam.transform.CamTransformer
+MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+  
+weaponlib (Modern Warfare_2.0-0.4.4.6_mc1.12.2.jar)
+  com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+IELoadingPlugin (ImmersiveEngineering-0.12-73-core.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+	ForgeEssentials: Running ForgeEssentials 12.3.82 (b9cf068). Modules loaded: Backups, Chat, Commands, Economy, JScripting, Multiworld, Permissions, PlayerLogger, Protection, Remote, SignTools, Teleport, Tickets, WorldBorder
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

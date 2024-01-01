@@ -1,0 +1,70 @@
+# --- ModList ---
+# Generated: 18-8-2020 (Server time)
+# Build: 82
+# Change the location of this file in main.cfg
+
+Minecraft;1.12.2;minecraft.jar;
+Minecraft Coder Pack;9.42;minecraft.jar;http://www.modcoderpack.com/website/
+Forge Mod Loader;8.0.99.99;forge-1.12.2-14.23.5.2854.jar;https://github.com/MinecraftForge/FML/wiki
+Minecraft Forge;14.23.5.2854;forge-1.12.2-14.23.5.2854.jar;http://minecraftforge.net
+CreativeCoreDummy;1.0.0;minecraft.jar;
+MovingWorld CORE;;minecraft.jar;
+Forge Essentials;12.3;.forgeessentials-1.12.2-12.3.82-server.jar;
+bspkrsCore;7.6.0.1;[1.12]bspkrsCore-universal-7.6.0.1.jar;http://www.minecraftforum.net/topic/1114612-/
+Antique Atlas;4.5.1;antiqueatlas-1.12.2-4.5.1.jar;http://www.minecraftforum.net/topic/2045745
+???????? ????? ?????????????;1.12.2-17;B3M-TimeSpeed-1.12.2-17.jar;https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2945879
+Backpack;3.0.2;backpack-3.0.2-1.12.2.jar;http://www.minecraftforum.net/topic/1492661-
+Better Diving;1.5.7;BetterDiving-1.12.2-1.5.7.jar;
+BiblioCraft;2.4.5;BiblioCraft-v2.4.5-MC1.12.2.jar;http://www.bibliocraftmod.com
+Carry On;1.12.2;CarryOn.jar;
+CodeChicken Lib;3.2.3.358;CodeChickenLib-1.12.2-3.2.3.358.jar;http://chickenbones.net/Pages/links.html
+ChickenChunks;2.4.2.74;ChickenChunks-1.12.2-2.4.2.74.jar;http://www.minecraftforum.net/topic/909223
+Chisel;MC1.12.2-1.0.2.45;Chisel-MC1.12.2-1.0.2.45.jar;https://minecraft.curseforge.com/projects/chisel
+CreativeCore;1.10.0;CreativeCore_v1.10.20_mc1.12.2.jar;https://www.curseforge.com/minecraft/mc-mods/creativecore
+CMDCam;1.4.0;CMDCam_v1.4.10_mc1.12.2.jar;
+Crafting Station;@VERSION@;craftingstation-0.1.7c.jar;
+CraftStudio API;1.0.0;CraftStudioAPI-v1.0.1.95-mc1.12.jar;
+CraftTweaker2;4.1.20;CraftTweaker2-1.12-4.1.20.586.jar;http://minetweaker3.powerofbytes.com
+CraftTweaker JEI Support;2.0.3;CraftTweaker2-1.12-4.1.20.586.jar;
+CustomNPCs;1.12;CustomNPCs_1.12.2-(05Jul20).jar;http://tinyurl.com/customnpcs
+Moving World;1.12-6.353;Movingworld-1.12-6.353-full.jar;
+Davinci's Vessels;@DVESSELSVER@;davincisvessels-1.12-6.340-full.jar;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2364835
+MrCrayfish's Device Mod;0.4.1;Device Mods-0.4.1-mc1.12.2.jar;https://mrcrayfish.com/mods?id=cdm
+Mod Economy;1.5;Economy-Inc-Mod-1.12.2.jar;https://www.curseforge.com/minecraft/mc-mods/economy-inc
+LLibrary;1.7.19;llibrary-1.7.19-1.12.2.jar;https://github.com/iLexiconn/LLibrary
+Fossils and Archeology Revival;8.0.4;fossilsarcheology-8.0.4.jar;https://minecraft.curseforge.com/projects/fossils
+MrCrayfish's Furniture Mod;6.3.1;furniture-6.3.1-1.12.2.jar;https://mrcrayfish.com/mods?id=cfm
+HideNames;1.4.1;HideNames-1.12.2-1.4.1.jar;https://skmedix.pl/hidenames/
+Track API;1.2;TrackAPI-1.2.jar;
+Immersive Railroading;1.7.1;Immersive-Railroading-Mod-1.12.2.jar;
+UniversalModCore;1.0.0;Immersive-Railroading-Mod-1.12.2.jar;
+Inventory Tweaks;1.63+release.109.220f184;InventoryTweaks-1.63.jar;https://github.com/Kobata/inventory-tweaks
+Iron Chest;1.12.2-7.0.67.844;ironchest-1.12.2-7.0.72.847.jar;http://www.minecraftforum.net/topic/981855-
+MalisisCore;1.12.2-6.5.1-SNAPSHOT;malisiscore-1.12.2-6.5.1.jar;http://github.com/Ordinastie/MalisisCore
+MalisisDoors;1.12.2-7.3.0;MalisisDoors-Mod-1.12.2.jar;http://github.com/Ordinastie/MalisisDoors
+McJtyLib;3.5.4;mcjtylib-1.12-3.5.4.jar;
+MineJurassic;1.1.2 - Mesozoic in Europe Update;MineJurassic-1.1.2-1.12.2.jar;https://www.curseforge.com/minecraft/mc-mods/minejurassic
+MJRLegendsLib;1.12.2-1.2.0;MJRLegendsLib-1.12.2-1.2.0.jar;
+Modern Warfare 2.0 Contagion;0.4.4.6;Modern Warfare_2.0-0.4.4.6_mc1.12.2.jar;
+MTLib;3.0.6;MTLib-3.0.6.jar;
+Mod Tweaker;4.0.18;modtweaker-4.0.18.jar;https://minecraft.curseforge.com/projects/ModTweaker
+Pam's HarvestCraft;1.12.2zb;Pam_s HarvestCraft 1.12.2zb.jar;http://minecraft.curseforge.com/members/MatrexsVigil/projects
+RFTools;7.73;rftools-1.12-7.73.jar;
+RikMuld's Core;1.3.3;RikMuldsCore_1.3.3.jar;rikmuld.com
+SecurityCraft;v1.8.19.3;SecurityCraft mc1.12.2 v1.8.19.3.jar;http://geforcemods.net
+Serene Seasons;1.2.18;SereneSeasons-1.12.2-1.2.18-universal.jar;
+ShootIt;0.1;shootit-1.12.2-0.2.jar;
+Snow Accumulation;1.0.0;Snow-Accumulation-Mod-1.12.2.jar;
+Subaraki's Common Library;1.2.0.1;subcommonlib-sublib-1.12.2-1.2.0.4.jar;https://minecraft.curseforge.com/projects/sublib
+Telepads;$version;telepads-1.12.2-1.1.0.7.jar;https://github.com/ArtixAllMighty/Telepads2016/wiki
+TorchMaster;1.8.1.82;TorchMaster-Mod-1.12.2.jar;
+TreeCapitator;1.43.0;TreeCapitator-client-1.43.0.jar;http://www.minecraftforum.net/topic/1009577-/
+§aImmersive Voice;0.7.0;VoiceChat-1.12.2-0.7.0.jar;
+WanionLib;1.12.2-2.4;WanionLib-1.12.2-2.4.jar;http://minecraft.curseforge.com/projects/wanionlib
+Better Animals Plus;9.0.1;betteranimalsplus-1.12.2-9.0.1.jar;https://minecraft.curseforge.com/projects/betteranimalsplus
+Kiwi;0.5.3.32;Kiwi-1.12.2-0.5.3.32.jar;
+Cuisine;0.5.22-build929;Cuisine-0.5.22-build929.jar;
+Immersive Engineering;0.12-89;ImmersiveEngineering-0.12-89.jar;https://github.com/BluSunrize/ImmersiveEngineering
+JurassiCraft;2.1.23 ;JurassiCraft-1.12.2-2.1.23.jar;https://minecraft.curseforge.com/projects/jurassicraft
+OreLib Support Mod;3.6.0.1;OreLib-1.12.2-3.6.0.1.jar;https://github.com/OreCruncher/OreLib/wiki
+UniDict;1.12.2-2.9.6;UniDict-1.12.2-2.9.6.jar;http://minecraft.curseforge.com/projects/unidict
